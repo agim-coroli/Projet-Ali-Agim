@@ -16046,6 +16046,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
+<<<<<<< HEAD
 header {
   background-color: #e2faf8;
   width: 100%;
@@ -16291,6 +16292,217 @@ header .zero .deux {
   .photo1 {
     display: none;
   }
+=======
+body {
+  margin: 0;
+}
+
+.sectionbanniere {
+  background-image: url(../../../public/img/signup-bg.jpg);
+  height: 250px;
+}
+.sectionbanniere .inputbutton {
+  width: 35%;
+}
+
+@media (max-width: 426px) {
+  .agim .box1 {
+    background-color: #d46442;
+    height: 75px;
+  }
+  .agim .box1 .row .col p {
+    font-size: 75%;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+  .agim .box1 .row .col button {
+    color: #d46442;
+    width: 30%;
+    height: 40%;
+    font-size: 50%;
+  }
+  .agim .ourblog {
+    font-size: 75%;
+    font-weight: bolder;
+    margin-top: 6%;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 {
+    background-color: #f2f6ff;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .mb-4 {
+    border-bottom: 1px solid black;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .card .text-danger {
+    bottom: 45.5%;
+    right: 0.01%;
+    background-color: rgba(231, 231, 231, 0.836);
+  }
+  .agim .boiteblog {
+    background-color: #f2f6ff;
+  }
+  .agim .boiteblog .titreblog {
+    font-size: 90%;
+    font-weight: bold;
+  }
+}
+@media (min-width: 427px) and (max-width: 1025px) {
+  .agim .box1 {
+    background-color: #d46442;
+    height: 100px;
+  }
+  .agim .box1 .row .col p {
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+  .agim .box1 .row .col button {
+    color: #d46442;
+    width: 20%;
+    height: 35%;
+    font-size: 75%;
+  }
+  .agim p {
+    font-size: 75%;
+    margin-top: 2%;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 {
+    background-color: #f2f6ff;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .mb-4 {
+    border-bottom: 1px solid black;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .card .text-danger {
+    bottom: 41.5%;
+    right: 0.001%;
+    background-color: rgba(231, 231, 231, 0.836);
+  }
+  .agim .boiteblog {
+    background-color: #f2f6ff;
+  }
+  .agim .boiteblog .titreblog {
+    font-size: 90%;
+    font-weight: bold;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 80% !important;
+    height: 250px;
+  }
+  .agim .boiteblog .cartesblog .lep3 .img img {
+    height: 100%;
+    width: 100%;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card-body h6 {
+    font-size: 155%;
+  }
+}
+@media (min-width: 1026px) {
+  .agim .box1 {
+    background-color: #d46442;
+    height: 200px;
+  }
+  .agim .box1 .row .col p {
+    font-size: 125%;
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+  .agim .box1 .row .col button {
+    color: #d46442;
+    width: 10%;
+    height: 35%;
+    font-size: 75%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 4%;
+  }
+  .agim p {
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 7%;
+  }
+  .agim .grand-boite-carte {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+  .agim .grand-boite-carte .boite-carte {
+    background-color: #f2f6ff;
+    margin: 1%;
+    height: 25.9em;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 {
+    width: 100%;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .mb-4 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+    width: 100%;
+    padding-bottom: 3%;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .card {
+    border: none;
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .card .text-danger {
+    bottom: 47%;
+    right: 0%;
+    background-color: rgba(231, 231, 231, 0.836);
+  }
+  .agim .grand-boite-carte .boite-carte .p-3 .card .card-body .card-text {
+    font-weight: lighter;
+    font-size: 100%;
+  }
+  .agim .titreblog {
+    font-size: 140%;
+    font-weight: bold;
+    background-color: #f2f6ff;
+    margin-top: 5%;
+    padding-top: 5% !important;
+    height: 150px;
+    margin-bottom: 0;
+  }
+  .agim .boiteblog {
+    background-color: #f2f6ff;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  .agim .boiteblog .cartesblog {
+    width: 40%;
+  }
+  .agim .boiteblog .cartesblog .lep3 {
+    padding-bottom: 0% !important;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    height: 250px;
+  }
+  .agim .boiteblog .cartesblog .lep3 .img {
+    width: 100%;
+  }
+  .agim .boiteblog .cartesblog .lep3 .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card-body {
+    width: 100%;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card-body .card-text {
+    font-size: 90%;
+    font-weight: normal;
+    margin-top: 5%;
+  }
+  .agim .boiteblog .cartesblog .lep3 .card-body h6 {
+    font-size: 120%;
+  }
+}
+footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl {
+  background-color: #363e50;
+  padding: 3%;
+>>>>>>> 28e412e6c48da31fcd920815e2a8501206d0b65b
 }
 
 /*# sourceMappingURL=app.css.map */
