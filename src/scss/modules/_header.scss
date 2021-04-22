@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(226, 250, 248);
+    width: 100%;
+    
+    .zero{
+        height:100%;
+        .un{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+            text-align: center;
+            border-bottom:rgb(193, 213, 219) 1px solid;
+            h1{
+                font-family: 'Dancing Script', cursive;    
+                font-size: 250%;
+            }
+        }
+        .deux{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            
+            
+        
+        }
+    }
+}
+@media(max-width:991px){
+    header{
+        height:350px;
+    }
+    .un{
+        height: 40%;
+    }
+    .deux{
+        height: 60%;
+    }
+}
+@media(min-width:992px){
+    header{
+        height:250px;
+    }
+    .un{
+        height: 60%;
+    }
+    .deux{
+        height: 40%;
+    
+}
+}

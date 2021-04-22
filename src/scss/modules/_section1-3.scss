@@ -1,0 +1,33 @@
+.sectiontrois{
+    display: flex;
+    justify-content: center;
+    .papa{
+        width: 50%;
+        margin: 150px;
+        
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .divronde{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 270px;
+            p{
+                font-size: 25px;
+            }
+            .imgronde{
+            border-radius:50%;
+            }
+        }
+    }
+    
+    
+}
+@media(max-width:850px){
+    .papa{
+        flex-wrap: wrap;
+    }
+}
