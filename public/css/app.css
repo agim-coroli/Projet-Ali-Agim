@@ -16140,7 +16140,6 @@ body {
     display: flex !important;
     flex-direction: row !important;
     width: 80% !important;
-    height: 250px;
   }
   .agim .boiteblog .cartesblog .lep3 .img img {
     height: 100%;
@@ -16231,7 +16230,6 @@ body {
     display: flex !important;
     flex-direction: row !important;
     width: 100% !important;
-    height: 250px;
   }
   .agim .boiteblog .cartesblog .lep3 .img {
     width: 100%;
@@ -16252,9 +16250,424 @@ body {
     font-size: 120%;
   }
 }
+@media (max-width: 769px) {
+  .sectionbanniere .inputbutton input {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+  .sectionbanniere .inputbutton button {
+    width: 100%;
+    font-size: 70%;
+  }
+}
+@media (min-width: 770px) and (max-width: 1452px) {
+  .sectionbanniere .inputbutton {
+    display: flex;
+  }
+  .sectionbanniere .inputbutton input {
+    height: 90%;
+  }
+  .sectionbanniere .inputbutton button {
+    height: 90%;
+    font-size: 55%;
+    font-weight: bold;
+    margin-left: 2%;
+    width: 30%;
+  }
+}
+body {
+  margin: 0;
+}
+body .sectionbanniere {
+  background-image: url("../../../public/img/signup-bg.jpg");
+  height: 250px;
+}
+body .sectionbanniere .inputbutton {
+  width: 35%;
+}
+body footer .container-fluid, body footer .container-sm, body footer .container-md, body footer .container-lg, body footer .container-xl {
+  background-color: #363e50;
+  padding: 3%;
+}
+
+body {
+  margin: 0;
+}
+
+.zero {
+  background-color: #e2faf8;
+  height: 200px;
+  width: 100%;
+}
+
+.un {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  border-bottom: #c1d5db 1px solid;
+}
+.un h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 250%;
+}
+
+.deux {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact {
+  background-image: url(./../../../public/img/heading-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+@media (max-width: 991px) {
+  .un {
+    height: 40%;
+  }
+
+  .deux {
+    height: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .un {
+    height: 60%;
+  }
+
+  .deux {
+    height: 40%;
+  }
+}
 footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl {
   background-color: #363e50;
   padding: 3%;
+}
+
+@media (min-width: 480px) and (max-width: 883px) {
+  footer .pied {
+    width: 100%;
+  }
+  footer .pied .pied1 {
+    display: flex;
+    width: 100% !important;
+  }
+  footer .pied .pied1 .pied2 {
+    padding: 0;
+  }
+  footer .pied .pied1 .pied2 i {
+    font-size: 50%;
+  }
+  footer .pied .pied1 .pied2 p {
+    font-size: 50%;
+    margin-top: 4%;
+  }
+}
+@media (max-width: 480px) {
+  footer .pied {
+    width: 100%;
+  }
+  footer .pied .pied1 {
+    display: flex;
+    width: 100% !important;
+  }
+  footer .pied .pied1 .pied2 {
+    padding: 0;
+  }
+  footer .pied .pied1 .pied2 i {
+    font-size: 50%;
+  }
+  footer .pied .pied1 .pied2 p {
+    font-size: 50%;
+    margin-top: 4%;
+  }
+}
+@media (max-width: 769px) {
+  .formreduit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+  .formreduit .message {
+    width: 50%;
+  }
+  .formreduit .message h4 {
+    margin-bottom: 8%;
+    text-align: center;
+  }
+  .formreduit .message .input {
+    border-bottom: 2px solid black;
+  }
+  .formreduit .message .input div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formreduit .message .input div input {
+    width: 100% !important;
+    margin-bottom: 5%;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+  }
+  .formreduit .message .input div textarea {
+    width: 100% !important;
+    margin-bottom: 5%;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+  }
+  .formreduit .message .input div button {
+    width: 30% !important;
+    font-size: 70%;
+    color: white;
+    background-color: #e95318;
+    margin-bottom: 10%;
+  }
+  .formreduit .contactinfo {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .formreduit .contactinfo h4 {
+    text-align: center;
+  }
+
+  .widget {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .widget iframe {
+    height: 250px;
+    width: 90%;
+  }
+}
+@media (min-width: 320px) and (max-width: 704px) {
+  .input div button {
+    font-size: 40% !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 963px) {
+  .formreduit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+  .formreduit .message {
+    width: 50%;
+  }
+  .formreduit .message h4 {
+    margin-bottom: 8%;
+    text-align: center;
+  }
+  .formreduit .message .input {
+    border-bottom: 2px solid black;
+  }
+  .formreduit .message .input div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formreduit .message .input div input {
+    width: 100% !important;
+    margin-bottom: 5%;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+  }
+  .formreduit .message .input div textarea {
+    width: 100% !important;
+    margin-bottom: 5%;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+  }
+  .formreduit .message .input div button {
+    width: 30% !important;
+    font-size: 70%;
+    color: white;
+    background-color: #e95318;
+    margin-bottom: 10%;
+  }
+  .formreduit .contactinfo {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .formreduit .contactinfo h4 {
+    text-align: center;
+  }
+
+  .widget {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .widget iframe {
+    width: 90%;
+  }
+}
+@media (min-width: 963px) and (max-width: 1249px) {
+  .formreduit {
+    display: flex;
+    margin: 5%;
+  }
+  .formreduit .message h4 {
+    margin-bottom: 7%;
+  }
+  .formreduit .message .input {
+    display: flex;
+  }
+  .formreduit .message .input div:first-child {
+    margin-right: -100px;
+  }
+  .formreduit .message .input div:first-child input {
+    height: 38px;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+    margin-bottom: 7%;
+  }
+  .formreduit .message .input div:last-child textarea {
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+    width: 95% !important;
+    height: 108px;
+  }
+  .formreduit .message .input div:last-child button {
+    width: 95% !important;
+    margin-top: 12%;
+    height: 37px;
+    border: white;
+    background-color: #e95318;
+    font-size: 75%;
+    color: white;
+  }
+  .formreduit .contactinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .formreduit .contactinfo h4 {
+    margin-bottom: 7%;
+  }
+  .formreduit .contactinfo p {
+    font-size: 80%;
+    margin-top: 2%;
+  }
+
+  .widget {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .widget iframe {
+    width: 90%;
+  }
+}
+@media (min-width: 1249px) {
+  .formreduit {
+    display: flex;
+    margin: 15%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .formreduit .message h4 {
+    margin-bottom: 7%;
+  }
+  .formreduit .message .input {
+    display: flex;
+  }
+  .formreduit .message .input div:first-child {
+    margin-right: -100px;
+  }
+  .formreduit .message .input div:first-child input {
+    height: 38px;
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+    margin-bottom: 7%;
+  }
+  .formreduit .message .input div:last-child textarea {
+    background: rgba(128, 128, 128, 0.137);
+    border: white;
+    width: 95% !important;
+    height: 108px;
+  }
+  .formreduit .message .input div:last-child button {
+    width: 95% !important;
+    margin-top: 12%;
+    height: 37px;
+    border: white;
+    background-color: #e95318;
+    font-size: 75%;
+    color: white;
+  }
+  .formreduit .contactinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .formreduit .contactinfo h4 {
+    margin-bottom: 7%;
+  }
+  .formreduit .contactinfo p {
+    font-size: 80%;
+    margin-top: 2%;
+  }
+
+  .widget {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+}
+footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl {
+  background-color: #363e50;
+  padding: 3%;
+}
+
+@media (min-width: 480px) and (max-width: 883px) {
+  footer .pied {
+    width: 100%;
+  }
+  footer .pied .pied1 {
+    display: flex;
+    width: 100% !important;
+  }
+  footer .pied .pied1 .pied2 {
+    padding: 0;
+  }
+  footer .pied .pied1 .pied2 i {
+    font-size: 50%;
+  }
+  footer .pied .pied1 .pied2 p {
+    font-size: 50%;
+    margin-top: 4%;
+  }
+}
+@media (max-width: 480px) {
+  footer .pied {
+    width: 100%;
+  }
+  footer .pied .pied1 {
+    display: flex;
+    width: 100% !important;
+  }
+  footer .pied .pied1 .pied2 {
+    padding: 0;
+  }
+  footer .pied .pied1 .pied2 i {
+    font-size: 50%;
+  }
+  footer .pied .pied1 .pied2 p {
+    font-size: 50%;
+    margin-top: 4%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

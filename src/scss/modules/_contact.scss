@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+}
+    .zero{
+        background-color: rgb(226, 250, 248);
+        height: 200px;
+        width: 100%;
+    }
+        .un{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            border-bottom:rgb(193, 213, 219) 1px solid;
+            h1{
+                font-family: 'Dancing Script', cursive;
+                font-size: 250%;
+            }
+        }
+        .deux{
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+    .contact{
+        background-image: url(./../../../public/img/heading-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    }
+@media(max-width:991px){
+    .un{
+        height: 40%;
+    }
+    .deux{
+        height: 60%;
+    }
+}
+@media(min-width:992px){
+    .un{
+        height: 60%;
+    }
+    .deux{
+        height: 40%;
+
+}
+}
+
+footer{
+    .container-fluid{
+        background-color: #363e50;
+        padding: 3%;
+    }
+}
+@media(min-width:480px) and (max-width:883px){
+    footer{
+        .pied{
+            width: 100% ;
+            .pied1{
+                display: flex ;
+                width: 100% !important;
+                .pied2{
+                    padding: 0 ;
+                    i{
+                        font-size: 50% ;
+                    }
+                    p{
+                        font-size: 50% ;
+                        margin-top: 4% ;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:480px){
+    footer{
+        .pied{
+            width: 100% ;
+            .pied1{
+                display: flex;
+                width: 100% !important;
+                .pied2{
+                    padding: 0;
+                    i{
+                        font-size: 50%;
+                    }
+                    p{
+                        font-size: 50%;
+                        margin-top: 4%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:769px){
+    .formreduit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        .message{
+            width: 50%;
+            h4{
+                margin-bottom: 8%;
+                text-align: center;
+            }
+            .input{
+                border-bottom: 2px solid black;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    input{
+                        width: 100% !important;
+                        margin-bottom: 5%;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                    }
+                    textarea{
+                        width: 100% !important;
+                        margin-bottom: 5%;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                    }
+                    button{
+                        width: 30% !important;
+                        font-size: 70%;
+                        color: rgb(255, 255, 255);
+                        background-color: rgb(233, 83, 24);
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+        }
+        .contactinfo{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            h4{
+                text-align: center;
+            }
+        }
+    }
+    .widget{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+        iframe{
+            height: 250px;
+            width: 90%;
+        }
+    }
+}
+@media (min-width:320px) and (max-width:704px){
+    .input{
+        div{
+            button{
+                font-size: 40% !important;
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:963px){
+    .formreduit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        .message{
+            width: 50%;
+            h4{
+                margin-bottom: 8%;
+                text-align: center;
+            }
+            .input{
+                border-bottom: 2px solid black;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    input{
+                        width: 100% !important;
+                        margin-bottom: 5%;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                    }
+                    textarea{
+                        width: 100% !important;
+                        margin-bottom: 5%;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                    }
+                    button{
+                        width: 30% !important;
+                        font-size: 70%;
+                        color: rgb(255, 255, 255);
+                        background-color: rgb(233, 83, 24);
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+        }
+        .contactinfo{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            h4{
+                text-align: center;
+            }
+        }
+    }
+    .widget{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+        iframe{
+            width: 90%;
+        }
+    }
+}
+@media (min-width:963px) and (max-width:1249px){
+    .formreduit{
+        display: flex;
+        margin: 5%;
+        .message{
+            h4{
+                margin-bottom: 7%;
+            }
+            .input{
+                display: flex;
+                div:first-child{
+                    margin-right: -100px;
+                    input{
+                        height: 38px;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                        margin-bottom: 7%;
+                    }
+                }
+                div:last-child{
+                    textarea{
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                        width: 95% !important;
+                        height: 108px;
+                    }
+                    button{
+                        width: 95% !important;
+                        margin-top: 12%;
+                        height: 37px;
+                        border: white;
+                        background-color: rgb(233, 83, 24);
+                        font-size: 75%;
+                        color: white;
+                    }
+                }
+            }
+            
+        }
+        .contactinfo{
+            display: flex;
+            flex-direction: column;
+            h4{
+                margin-bottom: 7%;
+            }
+            margin-left: 2%;
+            p{
+                font-size: 80%;
+                margin-top: 2%;
+            }
+        }
+    }
+    .widget{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+        iframe{
+            width: 90%;
+        }
+    }
+}
+@media (min-width:1249px){
+    .formreduit{
+        display: flex;
+        margin: 15%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        .message{
+            h4{
+                margin-bottom: 7%;
+            }
+            .input{
+                display: flex;
+                div:first-child{
+                    margin-right: -100px;
+                    input{
+                        height: 38px;
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                        margin-bottom: 7%;
+                    }
+                }
+                div:last-child{
+                    textarea{
+                        background: rgba(128, 128, 128, 0.137);
+                        border: white;
+                        width: 95% !important;
+                        height: 108px;
+                    }
+                    button{
+                        width: 95% !important;
+                        margin-top: 12%;
+                        height: 37px;
+                        border: white;
+                        background-color: rgb(233, 83, 24);
+                        font-size: 75%;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .contactinfo{
+            display: flex;
+            flex-direction: column;
+            h4{
+                margin-bottom: 7%;
+            }
+            margin-left: 2%;
+            p{
+                font-size: 80%;
+                margin-top: 2%;
+            }
+        }
+    }
+    .widget{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+}

@@ -4,3 +4,45 @@ footer{
         padding: 3%;
     }
 }
+@media(min-width:480px) and (max-width:883px){
+    footer{
+        .pied{
+            width: 100%;
+            .pied1{
+                display: flex;
+                width: 100% !important;
+                .pied2{
+                    padding: 0;
+                    i{
+                        font-size: 50%;
+                    }
+                    p{
+                        font-size: 50%;
+                        margin-top: 4%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:480px){
+    footer{
+        .pied{
+            width: 100%;
+            .pied1{
+                display: flex;
+                width: 100% !important;
+                .pied2{
+                    padding: 0;
+                    i{
+                        font-size: 50%;
+                    }
+                    p{
+                        font-size: 50%;
+                        margin-top: 4%;
+                    }
+                }
+            }
+        }
+    }
+}

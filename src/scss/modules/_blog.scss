@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    .sectionbanniere{
+        background-image: url("../../../public/img/signup-bg.jpg");
+        height: 250px;
+        .inputbutton{
+            width: 35%;
+        }
+    }
+    
+    footer{
+        .container-fluid{
+            background-color: #363e50;
+            padding: 3%;
+        }
+    }
+}

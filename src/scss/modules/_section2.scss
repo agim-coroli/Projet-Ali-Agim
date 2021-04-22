@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-
+// PAGE 1 (HOME)
 .sectionbanniere{
         background-image: url(../../../public/img/signup-bg.jpg);
         height: 250px;
@@ -116,7 +116,6 @@ body{
                             display: flex !important;
                             flex-direction: row !important;
                             width: 80% !important;
-                            height: 250px;
                         }
                         .img{
                             img{
@@ -221,7 +220,6 @@ body{
                             display: flex !important;
                             flex-direction: row !important;
                             width: 100% !important;
-                            height: 250px;
                         }
                         .img{
                             width: 100%;
@@ -243,6 +241,39 @@ body{
                         }
                     }
                 }
+        }
+
+    }
+}
+
+@media (max-width:769px){
+    .sectionbanniere{
+        .inputbutton{
+            input{
+                width: 100% !important;
+                margin-bottom: 5%;
+            }
+            button{
+                width: 100%;
+                font-size: 70%;
+            }
+        }
+    }
+}
+@media (min-width:770px) and (max-width:1452px){
+    .sectionbanniere{
+        .inputbutton{
+            display: flex;
+            input{
+                height: 90%;
+            }
+            button{
+                height: 90%;
+                font-size: 55%;
+                font-weight: bold;
+                margin-left: 2%;
+                width: 30%;
+            }
         }
     }
 }
