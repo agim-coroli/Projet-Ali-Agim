@@ -16292,5 +16292,44 @@ header .zero .deux {
     display: none;
   }
 }
+.sectionun1 {
+  background-image: url(../../../public/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 430px;
+  width: 100%;
+  color: white;
+}
+.sectionun1 div {
+  text-align: center;
+  width: 30%;
+}
+.sectionun1 div h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.sectiondeux2 {
+  display: flex;
+  justify-content: center;
+}
+.sectiondeux2 .boite-carte {
+  padding: 100px;
+  width: max-content;
+}
+.sectiondeux2 .boite-carte .lutin {
+  margin-top: 21%;
+}
+.sectiondeux2 .boite-carte .br img {
+  height: 550px;
+}
+.sectiondeux2 .boite-carte h4 {
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+}
+.sectiondeux2 .boite-carte .prix {
+  background-color: rgba(255, 255, 255, 0.801);
+}
 
 /*# sourceMappingURL=app.css.map */

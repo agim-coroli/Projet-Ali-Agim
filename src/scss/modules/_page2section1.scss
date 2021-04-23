@@ -1,0 +1,49 @@
+.sectionun1{
+    background-image: url(../../../public/img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height:430px;
+    width:100%;
+    color:white;
+    div{
+        text-align:center;
+        width: 30%;
+        
+        h1{
+            font-size:45px;
+            margin-bottom: 30px;
+        }
+        .ppp{
+
+        }
+    }
+}
+.sectiondeux2{
+    display: flex;
+    justify-content:center;
+    .boite-carte{
+        padding:100px;
+        
+        .lutin{
+            margin-top:21%;
+        }
+        .br{
+            img{
+                
+                height:550px;
+            }
+            
+        }
+        width: max-content;
+        h4{
+            font-size: 30px;
+            width: 100%;
+            text-align: left;
+        }
+        .prix{
+        background-color: rgba(255, 255, 255, 0.801);
+    }  
+    }
+    
+}
