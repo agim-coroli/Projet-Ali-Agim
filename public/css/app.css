@@ -16046,6 +16046,253 @@ h3 {
     border-color: #dee2e6;
   }
 }
+<<<<<<< HEAD
+header {
+  background-color: #e2faf8;
+  width: 100%;
+}
+header .zero {
+  height: 100%;
+}
+header .zero .un {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  border-bottom: #c1d5db 1px solid;
+}
+header .zero .un h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 250%;
+}
+header .zero .deux {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  header {
+    height: 350px;
+  }
+
+  .un {
+    height: 40%;
+  }
+
+  .deux {
+    height: 60%;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    height: 250px;
+  }
+
+  .un {
+    height: 60%;
+  }
+
+  .deux {
+    height: 40%;
+  }
+}
+.sectionun {
+  background-image: url(../../../public/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  width: 100%;
+  color: white;
+}
+.sectionun div {
+  text-align: center;
+  width: 30%;
+}
+.sectionun div h4 {
+  font-size: 17px;
+}
+.sectionun div h1 {
+  font-size: 45px;
+}
+.sectionun div button {
+  border: none;
+  background-color: #d46442;
+  color: white;
+  height: 40px;
+  width: 200px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+@media (max-width: 640px) {
+  .pp {
+    display: none;
+  }
+}
+.sectiondeux {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectiondeux .lolo {
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
+}
+.sectiondeux .lolo .divmilieu {
+  background-color: #d46442;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectiondeux .lolo .divmilieu h1 {
+  font-size: 25px;
+}
+.sectiondeux .lolo .divmilieu div {
+  width: 90%;
+  background-color: #cc7960;
+  height: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sectiondeux .lolo .divmilieu div p {
+  font-size: 15px;
+}
+.sectiondeux .lolo .divmilieu div h1 {
+  font-size: 24px;
+}
+.sectiondeux .lolo .divmilieu p {
+  font-size: 15px;
+}
+.sectiondeux .lolo .divmilieu button {
+  border: none;
+  background-color: white;
+  color: #d46442;
+  border-radius: 5px;
+}
+
+@media (max-width: 850px) {
+  .lolo {
+    flex-direction: column;
+    height: 100%;
+  }
+  .lolo .divmilieu {
+    width: 260px;
+    height: 270px;
+  }
+  .lolo .divmilieu button {
+    height: 40px;
+    width: 50%;
+  }
+  .lolo img {
+    width: 50%;
+  }
+}
+@media (min-width: 851px) {
+  .lolo {
+    height: 100%;
+  }
+  .lolo .divmilieu {
+    width: 350px;
+    height: 300px;
+  }
+  .lolo .divmilieu h1 {
+    text-align: center;
+  }
+  .lolo .divmilieu button {
+    height: 40px;
+    width: 50%;
+  }
+  .lolo img {
+    width: 30%;
+    height: 85%;
+  }
+}
+.sectiontrois {
+  display: flex;
+  justify-content: center;
+}
+.sectiontrois .papa {
+  width: 50%;
+  margin: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sectiontrois .papa .divronde {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+}
+.sectiontrois .papa .divronde p {
+  font-size: 25px;
+}
+.sectiontrois .papa .divronde .imgronde {
+  border-radius: 50%;
+}
+
+@media (max-width: 850px) {
+  .papa {
+    flex-wrap: wrap;
+  }
+}
+.sectionquatre {
+  background-image: url(../../../public/img/book-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 547px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionquatre .lola {
+  color: white;
+  margin-bottom: 70px;
+}
+.sectionquatre .photo .photo2 {
+  background-color: white;
+  width: 370px;
+  height: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sectionquatre .photo .photo2 h1 {
+  color: #222222;
+}
+.sectionquatre .photo .photo2 button {
+  background-color: #d46442;
+  color: white;
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+}
+.sectionquatre .photo .photo2 .lupin {
+  width: 160px;
+  color: gray;
+}
+
+@media (max-width: 640px) {
+  .photo1 {
+    display: none;
+  }
+=======
 body {
   margin: 0;
 }
@@ -16347,6 +16594,7 @@ body {
 footer .container-fluid, footer .container-sm, footer .container-md, footer .container-lg, footer .container-xl {
   background-color: #363e50;
   padding: 3%;
+>>>>>>> 28e412e6c48da31fcd920815e2a8501206d0b65b
 }
 
 @media (min-width: 480px) and (max-width: 883px) {
