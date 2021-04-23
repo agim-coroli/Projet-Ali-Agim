@@ -31,3 +31,11 @@
         flex-wrap: wrap;
     }
 }
+
+@media (min-width:850px) and (max-width:2008px){
+    .papa{
+        .divronde{
+            margin: 10%;
+        }
+    }
+}

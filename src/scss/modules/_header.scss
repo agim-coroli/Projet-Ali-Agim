@@ -50,3 +50,15 @@ header{
     
 }
 }
+
+@media (min-width:575px) and (max-width:640px){
+    .zero{
+        margin: 0;
+    }
+
+}
+@media (min-width:640px) and (max-width:740px){
+    .zero{
+        width: 100%;
+    }
+}
